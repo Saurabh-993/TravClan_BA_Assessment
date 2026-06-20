@@ -1,76 +1,60 @@
-# 🌍 TravClan BA Assessment Solution
+# 🌍 TravClan Business Analytics Solution
 
-A professional, data-driven analytics project focused on hotel booking insights, cancellation analysis, and SQL-based reporting. This repository turns raw booking data into clear business recommendations through structured analysis, visualizations, and a normalized database design.
+> A submission-ready analytics project that transforms hotel booking data into business insight, operational recommendations, and a structured SQL-based reporting model.
 
----
+## Executive Summary
 
-## 🎯 Project Purpose
-
-TravClan’s dataset was analyzed to answer key business questions around:
-
-- data quality and validation
-- cancellation behavior and business risk
-- realized revenue and booking performance
-- scalable SQL schema design for analytics
-
-The project is structured as a complete assessment solution with analysis, code, and supporting documentation.
+This project analyzes TravClan’s booking dataset to uncover data quality issues, explain cancellation behavior, and support decision-making through evidence-based analysis. It combines rigorous data cleaning, visual analytics, and relational database design into one polished solution suitable for a final business analytics submission.
 
 ---
 
-## 🧩 What This Project Does
+## 🎯 What This Project Delivers
 
-### 1. 📊 Data Quality Analysis
-
-This section checks the integrity of the booking data and ensures the analysis follows the assessment footnotes correctly. It focuses on:
-
-- invalid stays where checkout occurs on or before check-in
-- review rating inconsistencies across customer segments
-- realized revenue for luxury properties based on completed bookings only
-
-### 2. 📈 Cancellation Crisis Investigation
-
-This section explores why cancellations are high and which factors contribute most to the problem. It includes:
-
-- cancellation rate analysis across cities and months
-- comparisons between cancellation rate and total cancellation volume
-- root-cause checks around lead time, booking channel, and city-season effects
-- a business recommendation with expected impact and risk
-
-### 3. 🗄️ SQL Challenge Solution
-
-The project also includes a normalized database design for the booking dataset. It covers:
-
-- customer, property, booking, and review table design
-- constraints and validation rules
-- analytical SQL queries using window functions such as RANK and LAG
+| Focus Area            | Purpose                                                                  | Outcome                                                  |
+| --------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------- |
+| Data Quality Analysis | Validate business rules and identify inconsistencies in the dataset      | Ensures the analysis is accurate and footnote-aware      |
+| Cancellation Analysis | Study cancellation patterns across cities, seasons, and booking channels | Highlights the main drivers of churn and risk            |
+| SQL Data Modeling     | Normalize the dataset into a reporting-friendly schema                   | Provides a scalable structure for analytics and querying |
 
 ---
 
-## ⚙️ How It Works
+## 🧩 Core Objectives
 
-1. Load the hotel booking dataset from the provided CSV file.
-2. Apply cleaning and validation rules to handle data quality issues.
-3. Analyze booking behavior through Python and pandas.
-4. Create visualizations for cancellation patterns and business insights.
-5. Design a relational schema and write SQL queries for reporting and analytics.
+This solution answers key questions such as:
 
-This workflow combines business analysis, data engineering, and decision support into one cohesive solution.
+- How many bookings contain invalid stay dates?
+- How do review ratings differ across customer segments?
+- What is the realized revenue for luxury properties?
+- Why are cancellations elevated, and which segments contribute most?
+- What intervention can meaningfully reduce the cancellation rate?
 
 ---
 
-## 🛠️ Tech Stack
+## 🔍 How the Analysis Works
+
+1. Load the booking dataset from the provided CSV file.
+2. Apply cleaning and validation logic to handle data-quality issues.
+3. Analyze booking behavior using Python and pandas.
+4. Create visualizations to uncover cancellation patterns and business trends.
+5. Design a normalized SQL schema and write analytical queries using window functions.
+
+This workflow brings together data analysis, business reasoning, and data engineering in a structured and professional manner.
+
+---
+
+## 🛠️ Technologies Used
 
 - Python 3.11+
-- pandas for data manipulation
-- matplotlib and seaborn for visualizations
-- Jupyter Notebook for analysis workflow
+- pandas for data wrangling and transformation
+- matplotlib and seaborn for visualization
+- Jupyter Notebook for exploratory analysis
 - PostgreSQL for relational database design
 - psycopg2 for database connectivity
-- requests for API-related tasks
+- requests for API-related processing
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
 ```text
 TravClan/
@@ -93,21 +77,21 @@ TravClan/
 
 ## ✅ Key Deliverables
 
-- a complete business analytics notebook
-- actionable insight into booking cancellations
-- SQL schema and query solutions
-- a polished project structure suitable for assessment submission
+- A complete business analytics notebook with findings and visualizations
+- A structured SQL schema and query solution
+- A clear insight into cancellation drivers and business impact
+- A polished project layout suitable for final assessment submission
 
 ---
 
-## ▶️ How to Use
+## ▶️ How to Explore the Project
 
-- Open the notebook in the code folder to explore the full analysis.
+- Open the notebook in the code folder to review the analysis workflow.
 - Review the SQL implementation in the schema file.
-- Check the project folder for supporting notes and additional outputs.
+- Read the supporting project notes for additional insight and documentation.
 
 ---
 
-## 💡 Summary
+## 💡 Final Note
 
-This project demonstrates how raw booking data can be transformed into meaningful business decisions. It combines careful data validation, insightful visualization, and robust database design to provide a complete analytics story.
+This project demonstrates how raw booking data can be transformed into actionable business decisions. It reflects a strong blend of analytical thinking, data quality discipline, and professional presentation—making it well suited for final submission.
